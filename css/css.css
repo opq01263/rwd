@@ -385,8 +385,8 @@ padding: 20px 0;
 	height: 28px;
 	padding: 5px;
 	margin: 5px 0 15px 0;
-	border: .5px solid gray;
-	border-radius: 3px;
+	border: .8px solid gray;
+	border-radius: 5px;
 }
 @media(max-width: 768px){
 	.content-footer-input{
