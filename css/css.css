@@ -509,7 +509,6 @@ padding: 20px 0;
 @media(max-width: 768px){
 	.content-cartonline{
 		min-width: 100%;
-		max-width: 0;
 		float: none;
 	}
 }
@@ -554,11 +553,11 @@ padding: 20px 0;
 	margin-bottom: 10px;
 }
 .search-box{
-	width: 350px;
+	max-width: 350px;
 	position: relative;
 }
 .search-box input{
-	width: 100%;
+	max-width: 100%;
 	height: 32px;
 	border: 2px solid #3D1101;
 	background: rgb(239 233 231);
@@ -567,7 +566,7 @@ padding: 20px 0;
 	position: absolute;
 	right: 0;
 	top: 0;
-	width: 36px;
+	max-width: 36px;
 	height: 32px;
 	background-color: rgb(61 17 1);
 	text-align: center;
@@ -598,7 +597,7 @@ padding: 20px 0;
 		}
 	.search-box{
 		margin: 1% 5%;
-		width: 0;
+		max-width: 0;
 	}
 	.checkout{
 	margin-left: 85%;
@@ -663,7 +662,7 @@ padding: 20px 0;
 	margin: 10px auto 20px auto;
 	border-top: 1px solid rgb(61 17 1);
 	display: block;
-	width: 50%;
+	max-width: 50%;
 	margin-bottom: 20px;
 }
 .cartprice{
