@@ -162,11 +162,13 @@ margin-bottom: 10px;
   /*為了選單滿版*/
   width: 100%;
   background: #FF6F61;
-  text-align: center;
+
     }
  .header-menu li{
     float: none;
     border-bottom: 1px dashed #69CA62;
+      text-align: center;
+      line-height: 30px;
   }
   .header-menu a{
     transition: all 0.1s;
