@@ -160,7 +160,7 @@ margin-bottom: 10px;
   /*headertop80px 所以從80往下80+1=81*/
   top: 81px;
   /*為了選單滿版*/
-  width: 100%;
+  min-width: 100%;
   background: #FF6F61;
     }
  .header-menu li{
@@ -253,7 +253,7 @@ h3{
 		float: none;
 	}
 	.content-menu li{
-		min-width:100%;
+		max-width:100%;
 	}
 	.content-menu p{
 		padding:0 10%;
@@ -509,7 +509,6 @@ padding: 20px 0;
 @media(max-width: 768px){
 	.content-cartonline{
 		min-width: 100%;
-		max-width: 0;
 		float: none;
 	}
 }
@@ -534,7 +533,7 @@ padding: 20px 0;
 }
 .content-cartonlineli2{
 	background:#3D1101;
-	border: none;
+
 }
 .content-cartchoose {
 	float: left;
@@ -546,11 +545,14 @@ padding: 20px 0;
 @media(max-width: 768px){
 	.content-cartchoose {
 		float: none;
-		min-width: 90%;
 	}
 }
-.cartsearch li{
+.search-box{
 	float: left;
+	margin-bottom: 10px;
+}
+.checkout{
+		float: right;
 	margin-bottom: 10px;
 }
 .search-box{
@@ -592,39 +594,47 @@ padding: 20px 0;
 }
 
 @media(max-width: 768px){
-		.cartsearch li{
-			float: none;
-			min-width: 100%;
-		}
+	.cartsearch{
+		max-width: 100%;
+	}
 	.search-box{
+		float: none;
 		margin: 1% 5%;
-		width: 0;
+		min-width: 100%;
+		margin-left: 20%;
 	}
 	.checkout{
-	margin-left: 85%;
+	float: none;
+	margin-top: 10px;
+	margin-left:75%;
 	}
-}
-@media(max-width: 767px){
-.checkout{
-	margin-left: 65%;
-	}
-}
-@media(max-width: 767px){
-.checkout{
-	margin-left: 60%;
-	}
-}
-.cartmenu{
-	max-width: 75%;
-	float: left;
-}
-@media(max-width: 768px){
 	.cartmenu{
 	min-width: 100%;
 	float: none;
 	padding: 2% 5%;
 	}
 }
+@media(max-width: 767px){
+	.search-box{
+		float: none;
+		max-width: 100%;
+	}
+	.checkout{
+	float: right;
+	margin-top: 10px;
+	margin-left: 45%;
+	}
+	.cartmenu{
+	min-width: 100%;
+	float: none;
+	padding: 2% 5%;
+	}
+}
+.cartmenu{
+	max-width: 75%;
+	float: left;
+}
+
 .cartmenu ul{
 	float: right;
 }
@@ -739,9 +749,9 @@ padding: 20px 0;
 }
 /*看不懂結束*/
 @media(max-width: 768px){
-
 	.cartmenu ul{
 		min-width: 100%;
+		float: none;
 	}
 	.cartlitop{
 		min-width: 100%;
@@ -889,6 +899,9 @@ padding-bottom: 30px;
 		margin-left: 55%;
 	}
 
+}
+.clearfix{
+	clear: both;
 }
 .clearfix{
 	clear: both;
