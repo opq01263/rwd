@@ -630,6 +630,22 @@ padding: 20px 0;
 	padding: 2% 5%;
 	}
 }
+@media(max-width: 320px){
+	.search-box{
+		float: none;
+		max-width: 100%;
+	}
+	.checkout{
+	float: right;
+	margin-top: 10px;
+	margin-left: 40%;
+	}
+	.cartmenu{
+	min-width: 100%;
+	float: none;
+	padding: 2% 5%;
+	}
+}
 .cartmenu{
 	max-width: 75%;
 	float: left;
